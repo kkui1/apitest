@@ -1,0 +1,16 @@
+{
+    "customer": [
+      {
+        "id": 1,
+        "name": "hello",
+        "email": "hello@gmail.com",
+        "address1": "11 hello ave",
+        "address2": "apt 100",
+        "zip": "10002",
+        "phone": "9173900273"
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+}
