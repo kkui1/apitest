@@ -4,7 +4,7 @@
         "id": 1,
         "name": "hello",
         "email": "hello@gmail.com",
-        "address1": "11 hello ave",
+        "address1": "110 hello ave",
         "address2": "apt 100",
         "zip": "10002",
         "phone": "9173900273"
@@ -13,7 +13,7 @@
     "inventory": [
         {
           "id": 1,
-          "pic": "https://m.media-amazon.com/images/G/01/adlp/builder/Amazon-Smile-Squ-f9a6e959-ed0d-466b-920a-e9a214e54c02._CB514185896_.jpg",
+          "pic": {"url":"https://m.media-amazon.com/images/G/01/adlp/builder/Amazon-Smile-Squ-f9a6e959-ed0d-466b-920a-e9a214e54c02._CB514185896_.jpg"},
           "SKU": "A9213",
           "name": "Stainless Steel 300 Sink",
           "finish": "Chrome",
@@ -24,7 +24,7 @@
     "order": [
         {
           "id": 1,
-          "orderDate": "1/2/19 13:23",
+          "orderDate": "new Date('2017-04-23 23:05')",
           "orderNum": "A232",
           "PO": "33 St PATH",
           "orderStatus": "Confirmed",
@@ -36,7 +36,7 @@
     "shipment": [
         {
           "id": 1,
-          "orderDate": "1/2/19 13:23",
+          "orderDate": "new Date('2017-04-23 23:05')",
           "orderNum": "A232",
           "shipStatus": "Shipped",
           "parcel": "UPS",
@@ -47,7 +47,7 @@
     "return": [
         {
           "id": 1,
-          "orderDate": "1/2/19 13:23",
+          "orderDate": "new Date('2017-04-23 23:05')",
           "orderNum": "A232",
           "PO": "33 St PATH",
           "refundStatus": "Confirmed"
