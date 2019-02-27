@@ -44,7 +44,7 @@
           "shipTo":"NY"
         }
     ],
-    "return": [
+    "returns": [
         {
           "id": 1,
           "orderDate": "new Date('2017-04-23 23:05')",
