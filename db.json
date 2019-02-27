@@ -10,7 +10,43 @@
         "phone": "9173900273"
       }
     ],
-    "profile": {
-      "name": "typicode"
-    }
+    "inventory": [
+        {
+          "pic": "https://m.media-amazon.com/images/G/01/adlp/builder/Amazon-Smile-Squ-f9a6e959-ed0d-466b-920a-e9a214e54c02._CB514185896_.jpg",
+          "SKU": "A9213",
+          "name": "Stainless Steel 300 Sink",
+          "finish": "Chrome",
+          "qty": "11",
+          "location": [{"location1":"Fuller","location2":"A2","qty":10}]
+        }
+      ],
+    "order": [
+        {
+          "orderDate": "1/2/19 13:23",
+          "orderNum": "A232",
+          "PO": "33 St PATH",
+          "orderStatus": "Confirmed",
+          "platform": "Amazon",
+          "paidBy": "CC",
+          "shipTo":"NY"
+        }
+    ],
+    "shipment": [
+        {
+          "orderDate": "1/2/19 13:23",
+          "orderNum": "A232",
+          "shipStatus": "Shipped",
+          "parcel": "UPS",
+          "parcelSpeed": "Ground",
+          "shipTo":"NY"
+        }
+    ],
+    "return": [
+        {
+          "orderDate": "1/2/19 13:23",
+          "orderNum": "A232",
+          "PO": "33 St PATH",
+          "refundStatus": "Confirmed"
+        }
+    ]
 }
