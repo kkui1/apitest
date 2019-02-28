@@ -7,12 +7,13 @@
         "address1": "110 hello ave",
         "address2": "apt 100",
         "zip": "10002",
-        "phone": "9173900273"
+        "phone": "9173900273",
+        "deleted": false
       }
     ],
     "inventory": [
         {
-          "id": 1,
+          "id": "A2830",
           "pic": {"url":"https://m.media-amazon.com/images/G/01/adlp/builder/Amazon-Smile-Squ-f9a6e959-ed0d-466b-920a-e9a214e54c02._CB514185896_.jpg"},
           "SKU": "A9213",
           "itemNum":"83744",
@@ -30,14 +31,32 @@
       ],
     "order": [
         {
-          "id": 1,
+          "id": "A232",
           "orderDate": "2017-04-23 23:05",
           "orderNum": "A232",
-          "PO": "33 St PATH",
+          "PO#": "33 St PATH",
           "orderStatus": "Confirmed",
           "platform": "Amazon",
           "paidBy": "CC",
-          "shipTo":"NY"
+          "shipTo":"NY",
+          "refundStatus":"",
+          "orderItem":[{"inventoryId":"A283", "qty":2}],
+          "shipmentDetail":{
+            "parcelProvider":"UPS",
+            "parcelType": "Ground",
+            "shipDate":"2017-04-23",
+            "shipStatus": "Shipped",
+            "tracking#":"1Z190310923812312",
+            "shipmentContact":{
+              "name": "hello",
+              "email": "hello@gmail.com",
+              "address1": "110 hello ave",
+              "address2": "apt 100",
+              "zip": "10002",
+              "phone": "9173900273"
+            }
+          },
+          "customerId":"a12"
         }
     ],
     "shipment": [
@@ -45,9 +64,10 @@
           "id": 1,
           "orderDate": "2017-04-23 23:05",
           "orderNum": "A232",
+          "shipDate":"",
           "shipStatus": "Shipped",
-          "parcel": "UPS",
-          "parcelSpeed": "Ground",
+          "parcelProvider": "UPS",
+          "parcelType": "Ground",
           "shipTo":"NY"
         }
     ],
