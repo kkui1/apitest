@@ -24,7 +24,7 @@
     "order": [
         {
           "id": 1,
-          "orderDate": "new Date('2017-04-23 23:05')",
+          "orderDate": "2017-04-23 23:05",
           "orderNum": "A232",
           "PO": "33 St PATH",
           "orderStatus": "Confirmed",
@@ -36,7 +36,7 @@
     "shipment": [
         {
           "id": 1,
-          "orderDate": "new Date('2017-04-23 23:05')",
+          "orderDate": "2017-04-23 23:05",
           "orderNum": "A232",
           "shipStatus": "Shipped",
           "parcel": "UPS",
@@ -47,7 +47,7 @@
     "returns": [
         {
           "id": 1,
-          "orderDate": "new Date('2017-04-23 23:05')",
+          "orderDate": "2017-04-23 23:05",
           "orderNum": "A232",
           "PO": "33 St PATH",
           "refundStatus": "Confirmed"
