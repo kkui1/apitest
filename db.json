@@ -36,6 +36,11 @@
           "location1": "Fuller",
           "location2": "A2",
           "qty": 10
+        },
+        {
+          "location1": "Brooklyn",
+          "location2": "C12",
+          "qty": 10
         }
       ],
       "weightPrice": [
