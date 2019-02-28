@@ -19,7 +19,7 @@
           "itemNum":"83744",
           "model":"83744",
           "UPC":"9383883744",          
-          "Category":"Sink",          
+          "Category":["Sink"],          
           "name": "Stainless Steel 300 Sink",
           "finish": "Chrome",
           "qty": "11",
