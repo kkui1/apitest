@@ -128,7 +128,10 @@
     "Walmart"
   ],
   "refundStatus":[
-    "Requested"
+    "Requested",
+    "Pending Parcel",
+    "Pending Process",
+    "Issued"
   ],
   "parcelProvider":[
     "UPS",
