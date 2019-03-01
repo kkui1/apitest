@@ -122,47 +122,47 @@
     {"id": "Sand", "name":"Sand"}
   ],
   "orderStatus":[
-    {"id": 0, "name":"Quote"},
-    {"id": 1, "name":"Confirmed"},
-    {"id": 2, "name":"Sales Order"}
+    {"id": "Quote", "name":"Quote"},
+    {"id": "Confirmed", "name":"Confirmed"},
+    {"id": "Sales Order", "name":"Sales Order"}
   ],
   "paidBy":[
-    {"id": 0, "name":"Cash"},
-    {"id": 1, "name":"CC"},
-    {"id": 2, "name":"Check"}
+    {"id": "Cash", "name":"Cash"},
+    {"id": "CC", "name":"CC"},
+    {"id": "Check", "name":"Check"}
   ],
   "platform":[
-    {"id": 0, "name":"Amazon"},
-    {"id": 1, "name":"eBay"},
-    {"id": 2, "name":"Jet"},
-    {"id": 3, "name":"Walmart"}
+    {"id": "Amazon", "name":"Amazon"},
+    {"id": "eBay", "name":"eBay"},
+    {"id": "Jet", "name":"Jet"},
+    {"id": "Walmart", "name":"Walmart"}
   ],
   "refundStatus":[
-    {"id": 0, "name":"Requested"},
-    {"id": 1, "name":"Pending Parcel"},
-    {"id": 2, "name":"Pending Process"},
-    {"id": 3, "name":"Issued"}
+    {"id": "Requested", "name":"Requested"},
+    {"id": "Pending Parcel", "name":"Pending Parcel"},
+    {"id": "Pending Process", "name":"Pending Process"},
+    {"id": "Issued", "name":"Issued"}
   ],
   "parcelProvider":[
-    {"id": 0, "name":"UPS", "parcelType":[
-      {"id": 0, "name":"Ground"},
-      {"id": 1, "name":"2 Days"},
-      {"id": 2, "name":"SmartPost"},
-      {"id": 3, "name":"MI"}
+    {"id": "UPS", "name":"UPS", "parcelType":[
+      {"id": "Ground", "name":"Ground"},
+      {"id": "2 Days", "name":"2 Days"},
+      {"id": "SmartPost", "name":"SmartPost"},
+      {"id": "MI", "name":"MI"}
     ]},
-    {"id": 1, "name":"USPS", "parcelType":[
-      {"id": 0, "name":"First Class"},
-      {"id": 1, "name":"Priority"},
-      {"id": 2, "name":"Priority 1 Day"}
+    {"id": "USPS", "name":"USPS", "parcelType":[
+      {"id": "First Class", "name":"First Class"},
+      {"id": "Priority", "name":"Priority"},
+      {"id": "Priority 1 Day", "name":"Priority 1 Day"}
     ]},
-    {"id": 2, "name":"Fedex", "parcelType":[
-      {"id": 0, "name":"Ground"},
-      {"id": 1, "name":"2 Days"}
+    {"id": "Fedex", "name":"Fedex", "parcelType":[
+      {"id": "Ground", "name":"Ground"},
+      {"id": "2 Days", "name":"2 Days"}
     ]}
   ],
   "shipStatus":[
-    {"id": 0, "name":"Pending"},
-    {"id": 1, "name":"Shipped"},
-    {"id": 2, "name":"Delivered"}
+    {"id": "Pending", "name":"Pending"},
+    {"id": "Shipped", "name":"Shipped"},
+    {"id": "Delivered", "name":"Delivered"}
   ]
 }
