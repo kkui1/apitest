@@ -112,53 +112,53 @@
     }
   ],
   "category":[
-    {"id": 0, "type":"Sink"},
-    {"id": 1, "type":"Bracket"},
-    {"id": 2, "type":"Stainless Steel"},
-    {"id": 3, "type":"Mailbox"}
+    {"id": 0, "name":"Sink"},
+    {"id": 1, "name":"Bracket"},
+    {"id": 2, "name":"Stainless Steel"},
+    {"id": 3, "name":"Mailbox"}
   ],
   "orderStatus":[
-    {"id": 0, "type":"Quote"},
-    {"id": 1, "type":"Confirmed"},
-    {"id": 2, "type":"Sales Order"}
+    {"id": 0, "name":"Quote"},
+    {"id": 1, "name":"Confirmed"},
+    {"id": 2, "name":"Sales Order"}
   ],
   "paidBy":[
-    {"id": 0, "type":"Cash"},
-    {"id": 1, "type":"CC"},
-    {"id": 2, "type":"Check"}
+    {"id": 0, "name":"Cash"},
+    {"id": 1, "name":"CC"},
+    {"id": 2, "name":"Check"}
   ],
   "platform":[
-    {"id": 0, "type":"Amazon"},
-    {"id": 1, "type":"eBay"},
-    {"id": 2, "type":"Jet"},
-    {"id": 3, "type":"Walmart"}
+    {"id": 0, "name":"Amazon"},
+    {"id": 1, "name":"eBay"},
+    {"id": 2, "name":"Jet"},
+    {"id": 3, "name":"Walmart"}
   ],
   "refundStatus":[
-    {"id": 0, "type":"Requested"},
-    {"id": 1, "type":"Pending Parcel"},
-    {"id": 2, "type":"Pending Process"},
-    {"id": 3, "type":"Issued"}
+    {"id": 0, "name":"Requested"},
+    {"id": 1, "name":"Pending Parcel"},
+    {"id": 2, "name":"Pending Process"},
+    {"id": 3, "name":"Issued"}
   ],
   "parcelProvider":[
-    {"id": 0, "type":"UPS", "parcelType":[
-      {"id": 0, "type":"Ground"},
-      {"id": 1, "type":"2 Days"},
-      {"id": 2, "type":"SmartPost"},
-      {"id": 3, "type":"MI"}
+    {"id": 0, "name":"UPS", "parcelType":[
+      {"id": 0, "name":"Ground"},
+      {"id": 1, "name":"2 Days"},
+      {"id": 2, "name":"SmartPost"},
+      {"id": 3, "name":"MI"}
     ]},
-    {"id": 1, "type":"USPS", "parcelType":[
-      {"id": 0, "type":"First Class"},
-      {"id": 1, "type":"Priority"},
-      {"id": 2, "type":"Priority 1 Day"}
+    {"id": 1, "name":"USPS", "parcelType":[
+      {"id": 0, "name":"First Class"},
+      {"id": 1, "name":"Priority"},
+      {"id": 2, "name":"Priority 1 Day"}
     ]},
-    {"id": 2, "type":"Fedex", "parcelType":[
-      {"id": 0, "type":"Ground"},
-      {"id": 1, "type":"2 Days"}
+    {"id": 2, "name":"Fedex", "parcelType":[
+      {"id": 0, "name":"Ground"},
+      {"id": 1, "name":"2 Days"}
     ]}
   ],
   "shipStatus":[
-    {"id": 0, "type":"Pending"},
-    {"id": 1, "type":"Shipped"},
-    {"id": 2, "type":"Delivered"}
+    {"id": 0, "name":"Pending"},
+    {"id": 1, "name":"Shipped"},
+    {"id": 2, "name":"Delivered"}
   ]
 }
