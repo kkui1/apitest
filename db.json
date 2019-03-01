@@ -22,7 +22,7 @@
       "model": "83744",
       "UPC": "9383883744",
       "Category": [
-        "Sink"
+        {"id": "Sink", "name":"Sink"}
       ],
       "name": "Stainless Steel 300 Sink",
       "finish": "Chrome",
@@ -112,10 +112,14 @@
     }
   ],
   "category":[
-    {"id": 0, "name":"Sink"},
-    {"id": 1, "name":"Bracket"},
-    {"id": 2, "name":"Stainless Steel"},
-    {"id": 3, "name":"Mailbox"}
+    {"id": "Sink", "name":"Sink"},
+    {"id": "Bracket", "name":"Bracket"},
+    {"id": "Stainless Steel", "name":"Stainless Steel"},
+    {"id": "Mailbox", "name":"Mailbox"}
+  ],
+  "finish":[
+    {"id": "Chrome", "name":"Chrome"},
+    {"id": "Sand", "name":"Sand"}
   ],
   "orderStatus":[
     {"id": 0, "name":"Quote"},
