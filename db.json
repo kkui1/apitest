@@ -112,58 +112,53 @@
     }
   ],
   "category":[
-    "Sink",
-    "Bracket",
-    "Stainless Steel",
-    "Mailbox"
+    {"id": 0, "type":"Sink"},
+    {"id": 1, "type":"Bracket"},
+    {"id": 2, "type":"Stainless Steel"},
+    {"id": 3, "type":"Mailbox"}
   ],
   "orderStatus":[
-    "Quote",
-    "Confirmed",
-    "Sales Order"
+    {"id": 0, "type":"Quote"},
+    {"id": 1, "type":"Confirmed"},
+    {"id": 2, "type":"Sales Order"}
   ],
   "paidBy":[
-    "Cash",
-    "CC",
-    "Check"
+    {"id": 0, "type":"Cash"},
+    {"id": 1, "type":"CC"},
+    {"id": 2, "type":"Check"}
   ],
   "platform":[
-    "Amazon",
-    "eBay",
-    "Jet",
-    "Walmart"
+    {"id": 0, "type":"Amazon"},
+    {"id": 1, "type":"eBay"},
+    {"id": 2, "type":"Jet"},
+    {"id": 3, "type":"Walmart"}
   ],
   "refundStatus":[
-    "Requested",
-    "Pending Parcel",
-    "Pending Process",
-    "Issued"
+    {"id": 0, "type":"Requested"},
+    {"id": 1, "type":"Pending Parcel"},
+    {"id": 2, "type":"Pending Process"},
+    {"id": 3, "type":"Issued"}
   ],
   "parcelProvider":[
-    "UPS",
-    "USPS",
-    "Fedex"
+    {"id": 0, "type":"UPS", "parcelType":[
+      {"id": 0, "type":"Ground"},
+      {"id": 1, "type":"2 Days"},
+      {"id": 2, "type":"SmartPost"},
+      {"id": 3, "type":"MI"}
+    ]},
+    {"id": 1, "type":"USPS", "parcelType":[
+      {"id": 0, "type":"First Class"},
+      {"id": 1, "type":"Priority"},
+      {"id": 2, "type":"Priority 1 Day"}
+    ]},
+    {"id": 2, "type":"Fedex", "parcelType":[
+      {"id": 0, "type":"Ground"},
+      {"id": 1, "type":"2 Days"}
+    ]}
   ],
-  "parcelType":{
-    "UPS":[
-      "Ground",
-      "2 Days",
-      "SmartPost",
-      "MI"
-    ],
-    "USPS":[
-      "First Class",
-      "Priority",
-      "Priority 1 Day"
-    ],
-    "Fedex":[
-      "Ground",
-      "2 Days"
-    ]
-  },
   "shipStatus":[
-    "Pending",
-    "Shipped",
-    "Delivered"
+    {"id": 0, "type":"Pending"},
+    {"id": 1, "type":"Shipped"},
+    {"id": 2, "type":"Delivered"}
   ]
 }
