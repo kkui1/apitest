@@ -62,6 +62,7 @@
       "orderStatus": "Confirmed",
       "platform": "Amazon",
       "paidBy": "CC",
+      "paymentNum": "2932",
       "shipTo": "NY",
       "refundStatus": "",
       "orderItem": [
@@ -109,5 +110,51 @@
       "PO": "33 St PATH",
       "refundStatus": "Confirmed"
     }
+  ],
+  "orderStatus":[
+    "Quote",
+    "Confirmed",
+    "Sales Order"
+  ],
+  "paidBy":[
+    "Cash",
+    "CC",
+    "Check"
+  ],
+  "platform":[
+    "Amazon",
+    "eBay",
+    "Jet",
+    "Walmart"
+  ],
+  "refundStatus":[
+    "Requested"
+  ],
+  "parcelProvider":[
+    "UPS",
+    "USPS",
+    "Fedex"
+  ],
+  "parcelType":{
+    "UPS":[
+      "Ground",
+      "2 Days",
+      "SmartPost",
+      "MI"
+    ],
+    "USPS":[
+      "First Class",
+      "Priority",
+      "Priority 1 Day"
+    ],
+    "Fedex":[
+      "Ground",
+      "2 Days"
+    ]
+  },
+  "shipStatus":[
+    "Pending",
+    "Shipped",
+    "Delivered"
   ]
 }
