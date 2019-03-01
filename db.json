@@ -90,71 +90,27 @@
       "memo": ""
     }
   ],
-  "shipment": [
-    {
-      "id": "A232",
-      "orderDate": "2017-04-23 23:05",
-      "orderNum": "A232",
-      "shipDate": "",
-      "shipStatus": "Shipped",
-      "parcelProvider": "UPS",
-      "parcelType": "Ground",
-      "shipTo": "NY"
-    }
-  ],
-  "returns": [
-    {
-      "id": "A232",
-      "orderDate": "2017-04-23 23:05",
-      "orderNum": "A232",
-      "PO": "33 St PATH",
-      "refundStatus": "Confirmed"
-    }
-  ],
-  "orderStatus":[
-    "Quote",
-    "Confirmed",
-    "Sales Order"
-  ],
-  "paidBy":[
-    "Cash",
-    "CC",
-    "Check"
-  ],
-  "platform":[
-    "Amazon",
-    "eBay",
-    "Jet",
-    "Walmart"
-  ],
-  "refundStatus":[
-    "Requested"
-  ],
-  "parcelProvider":[
-    "UPS",
-    "USPS",
-    "Fedex"
-  ],
-  "parcelType":{
-    "UPS":[
-      "Ground",
-      "2 Days",
-      "SmartPost",
-      "MI"
+  "shipret":{
+    "shipment": [
+      {
+        "id": "A232",
+        "orderDate": "2017-04-23 23:05",
+        "orderNum": "A232",
+        "shipDate": "",
+        "shipStatus": "Shipped",
+        "parcelProvider": "UPS",
+        "parcelType": "Ground",
+        "shipTo": "NY"
+      }
     ],
-    "USPS":[
-      "First Class",
-      "Priority",
-      "Priority 1 Day"
-    ],
-    "Fedex":[
-      "Ground",
-      "2 Days"
+    "returns": [
+      {
+        "id": "A232",
+        "orderDate": "2017-04-23 23:05",
+        "orderNum": "A232",
+        "PO": "33 St PATH",
+        "refundStatus": "Confirmed"
+      }
     ]
-  },
-  "shipStatus":[
-    "Pending",
-    "Shipped",
-    "Delivered"
-  ]
+  }
 }
