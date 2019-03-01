@@ -22,7 +22,8 @@
       "model": "83744",
       "UPC": "9383883744",
       "Category": [
-        {"id": "Sink", "name":"Sink"}
+        "Sink",
+        "Stainless Steel"
       ],
       "name": "Stainless Steel 300 Sink",
       "finish": "Chrome",
@@ -112,57 +113,57 @@
     }
   ],
   "category":[
-    {"id": "Sink", "name":"Sink"},
-    {"id": "Bracket", "name":"Bracket"},
-    {"id": "Stainless Steel", "name":"Stainless Steel"},
-    {"id": "Mailbox", "name":"Mailbox"}
+    {"id": "Sink"},
+    {"id": "Bracket"},
+    {"id": "Stainless Steel"},
+    {"id": "Mailbox"}
   ],
   "finish":[
-    {"id": "Chrome", "name":"Chrome"},
-    {"id": "Sand", "name":"Sand"}
+    {"id": "Chrome"},
+    {"id": "Sand"}
   ],
   "orderStatus":[
-    {"id": "Quote", "name":"Quote"},
-    {"id": "Confirmed", "name":"Confirmed"},
-    {"id": "Sales Order", "name":"Sales Order"}
+    {"id": "Quote"},
+    {"id": "Confirmed"},
+    {"id": "Sales Order"}
   ],
   "paidBy":[
-    {"id": "Cash", "name":"Cash"},
-    {"id": "CC", "name":"CC"},
-    {"id": "Check", "name":"Check"}
+    {"id": "Cash"},
+    {"id": "CC"},
+    {"id": "Check"}
   ],
   "platform":[
-    {"id": "Amazon", "name":"Amazon"},
-    {"id": "eBay", "name":"eBay"},
-    {"id": "Jet", "name":"Jet"},
-    {"id": "Walmart", "name":"Walmart"}
+    {"id": "Amazon"},
+    {"id": "eBay"},
+    {"id": "Jet"},
+    {"id": "Walmart"}
   ],
   "refundStatus":[
-    {"id": "Requested", "name":"Requested"},
-    {"id": "Pending Parcel", "name":"Pending Parcel"},
-    {"id": "Pending Process", "name":"Pending Process"},
-    {"id": "Issued", "name":"Issued"}
+    {"id": "Requested"},
+    {"id": "Pending Parcel"},
+    {"id": "Pending Process"},
+    {"id": "Issued"}
   ],
   "parcelProvider":[
-    {"id": "UPS", "name":"UPS", "parcelType":[
-      {"id": "Ground", "name":"Ground"},
-      {"id": "2 Days", "name":"2 Days"},
-      {"id": "SmartPost", "name":"SmartPost"},
-      {"id": "MI", "name":"MI"}
+    {"id": "UPS", "parcelType":[
+      {"id": "Ground"},
+      {"id": "2 Days"},
+      {"id": "SmartPost"},
+      {"id": "MI"}
     ]},
-    {"id": "USPS", "name":"USPS", "parcelType":[
-      {"id": "First Class", "name":"First Class"},
-      {"id": "Priority", "name":"Priority"},
-      {"id": "Priority 1 Day", "name":"Priority 1 Day"}
+    {"id": "USPS", "parcelType":[
+      {"id": "First Class"},
+      {"id": "Priority"},
+      {"id": "Priority 1 Day"}
     ]},
-    {"id": "Fedex", "name":"Fedex", "parcelType":[
-      {"id": "Ground", "name":"Ground"},
-      {"id": "2 Days", "name":"2 Days"}
+    {"id": "Fedex", "parcelType":[
+      {"id": "Ground"},
+      {"id": "2 Days"}
     ]}
   ],
   "shipStatus":[
-    {"id": "Pending", "name":"Pending"},
-    {"id": "Shipped", "name":"Shipped"},
-    {"id": "Delivered", "name":"Delivered"}
+    {"id": "Pending"},
+    {"id": "Shipped"},
+    {"id": "Delivered"}
   ]
 }
