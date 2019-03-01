@@ -90,12 +90,6 @@
       "memo": ""
     }
   ],
-  "category":[
-    "Sink",
-    "Bracket",
-    "Stainless Steel",
-    "Mailbox"
-  ],
   "shipment": [
     {
       "id": "A232",
@@ -116,6 +110,12 @@
       "PO": "33 St PATH",
       "refundStatus": "Issued"
     }
+  ],
+  "category":[
+    "Sink",
+    "Bracket",
+    "Stainless Steel",
+    "Mailbox"
   ],
   "orderStatus":[
     "Quote",
