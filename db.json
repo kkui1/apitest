@@ -145,22 +145,27 @@
     {"id": "Issued"}
   ],
   "parcelProvider":[
-    {"id": "UPS", "parcelType":[
+    {"id": "UPS"},
+    {"id": "USPS"},
+    {"id": "Fedex"}
+  ],
+  "parcelType":{
+    "UPS":[
       {"id": "Ground"},
       {"id": "2 Days"},
       {"id": "SmartPost"},
       {"id": "MI"}
-    ]},
-    {"id": "USPS", "parcelType":[
+    ],
+    "USPS":[
       {"id": "First Class"},
       {"id": "Priority"},
       {"id": "Priority 1 Day"}
-    ]},
-    {"id": "Fedex", "parcelType":[
+    ],
+    "Fedex":[
       {"id": "Ground"},
       {"id": "2 Days"}
-    ]}
-  ],
+    ]
+  },
   "shipStatus":[
     {"id": "Pending"},
     {"id": "Shipped"},
