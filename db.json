@@ -59,7 +59,7 @@
     {
       "id": "A232",
       "orderDate": "2017-04-23 23:05",
-      "PO#": "33 St PATH",
+      "PO": "33 St PATH",
       "orderStatus": "Confirmed",
       "platform": "Amazon",
       "paidBy": "CC",
@@ -95,7 +95,6 @@
     {
       "id": "A232",
       "orderDate": "2017-04-23 23:05",
-      "orderNum": "A232",
       "shipDate": "",
       "shipStatus": "Shipped",
       "parcelProvider": "UPS",
@@ -107,7 +106,6 @@
     {
       "id": "A232",
       "orderDate": "2017-04-23 23:05",
-      "orderNum": "A232",
       "PO": "33 St PATH",
       "refundStatus": "Issued"
     }
