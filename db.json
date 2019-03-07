@@ -6,7 +6,7 @@
       "email": "hello@gmail.com",
       "address1": "110 hello ave",
       "address2": "apt 100",
-      "zip": 10002,
+      "zip": "10002",
       "phone": "9173900273",
       "deleted": false
     }
