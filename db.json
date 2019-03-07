@@ -27,7 +27,7 @@
       ],
       "name": "Stainless Steel 300 Sink",
       "finish": "Chrome",
-      "qty": "11",
+      "qty": 11,
       "availability": {
         "backorderDate": "2019-04-01",
         "lastArrivedDate": "2019-01-11"
